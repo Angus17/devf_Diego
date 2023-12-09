@@ -1,0 +1,48 @@
+.Dad{
+    position: relative;
+}
+
+.Son1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    bottom: 90px;
+    left: 200px;
+    right: 40px;
+
+}
+
+.Son2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.Son3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+.Son4{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    clear: both;
+}
+
+.Son5{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+
+}

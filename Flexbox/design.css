@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Item{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Item4{
+    order: -1;
+}

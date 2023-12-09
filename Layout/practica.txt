@@ -1,0 +1,6 @@
+Ejercicio 1: Float
+Crea un diseño simple de dos columnas, donde una columna tiene un ancho fijo y la otra ocupa el espacio restante. Utiliza la propiedad float para lograr esto.
+
+
+Ejercicio 2: Position
+Crea un diseño que incluya un elemento posicionado absolutamente dentro de otro elemento posicionado relativamente. El elemento interno debe tener un borde y un fondo diferente para que puedas ver claramente su posición.
