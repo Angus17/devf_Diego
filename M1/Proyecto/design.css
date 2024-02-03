@@ -1,0 +1,73 @@
+body{
+    background-color:greenyellow;
+    text-align: center;
+    
+}
+
+table{
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Por corregir*/
+.lists .ulists > li, .lists .olists > li{
+    justify-content: center;
+    margin: 0.75rem;
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+    text-align: left; /* Ajusta según sea necesario */
+    padding-left: 20px; /* Añade espacio para las viñetas */
+    position: relative;
+}
+
+
+p{
+    font-style:normal;
+    text-align: justify;
+}
+
+
+h1{
+    color: gray;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.btn{
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#three_buttons{
+    text-align: center;
+}
+
+#boton_especial button{
+    background-color: yellow ;
+    border: 3px solid black;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.btn-red{
+    background-color: tomato;
+}
+
+.btn-yellow{
+    background-color: yellow;
+}
+
+.btn-vainilla{
+    background-color: peachpuff;
+}
+
+#titulo-mod{
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family: "Pacifico", cursive;
+}

@@ -1,0 +1,192 @@
+body{
+    background-color: #202124;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header{
+    position: relative;
+    float: right;
+    left: 20px;
+    top: 3%;
+}
+
+header .opc{
+    position: relative;
+    width: 30px;
+    right: 100px;
+    top: 8px;
+}
+
+header .acc{
+    position: relative;
+    width: 40px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    right: 80px;
+    border-radius: 100px;
+    top: 15px;
+}
+
+header img:hover{
+    opacity: 0.6;
+}
+
+header button{
+    position: relative;
+    color: white;
+    font-size: medium;
+    border-color: transparent;
+    background-color: #202124;
+    bottom: 3px;
+}
+
+header button:hover{
+    text-decoration: underline;
+}
+
+header  .boton_G{
+    position: relative;
+    right: 150px;
+}
+
+header  .boton_I{
+    position: relative;
+    right: 130px;
+}
+
+.content button{
+    position: relative;
+    border-radius: 5px;
+    border-color: transparent;
+    height: 48px;
+    width: 200px;
+    text-align: center;
+    top: 230px;
+    left: 100px;
+    display: inline-block;
+    margin-inline: 7px;
+    color: white;
+    background-color: #303134;
+    font-size: large;
+}
+
+.content button:hover{
+    border: 1px solid gray;
+}
+
+.content img{
+    position: relative;
+    left: 560px;
+    top: 75px;
+    height: 190px;
+}
+
+.D1{
+    border-color: gray;
+    color: aliceblue;
+    background-color: #171717;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    position: relative;
+    top: 290px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.D1 .cty{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-size: large;
+}
+
+.D1 .box_2{
+    border-top: 1px solid gray;
+    font-size: large;
+    position: relative;
+    top: 20px;
+    height: 89px;
+}
+
+.D1 .box_2 .box_2-1 button{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: #171717;
+    color: white;
+    border: transparent;
+    font-size: large;
+    
+}
+
+.D1 .box_2 .box_2-2 button{
+    position: relative;
+    left: 95cap;
+    border: transparent;
+    background-color: #171717;
+    color: white;
+    font-size: large;
+}
+
+.D1 .box_2 .box_2-1 button:hover{
+    text-decoration: underline;
+}
+
+.D1 .box_2 .box_2-2 button:hover{
+    text-decoration: underline;
+}
+
+.search img{
+    position: relative;
+    width: 30px;
+    bottom: 45px;
+}
+
+.search input{
+    width: 730px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #202124;
+    color: white;
+    font-size: large;
+    position: relative;
+    border: 1px solid grey;
+    left: 430px;
+    top: 100px;
+    padding-left: 60px;
+    cursor: auto;
+}
+
+.search .imgs .S1{
+    position: relative;
+    float: right;
+    top: 105px;
+    right: 410px;
+    display: flex;
+}
+
+.search .imgs .S1 .cam{
+    order: 1;
+}
+
+.search .imgs .S1 .mic{
+    position: relative;
+    right: 20px;
+}
+
+.search .imgs .S2{
+    position: relative;
+    top: 105px;
+    left: 445px;
+}
+
+.search input:hover{
+    background-color: #303134;
+    border-color: transparent;
+}
+

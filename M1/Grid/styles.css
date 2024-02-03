@@ -1,0 +1,63 @@
+
+/* Estilos Desktop */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* .container{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos Pantalla Tablet */
+
+
+
+/* @media screen and (max-width: 768px) {
+    .container{
+        background-color: orange;
+        color: orangered;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        background-color: aqua;
+        color: blue;
+        text-decoration: line-through;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container{
+        background-color: green;
+        color: white;
+        text-decoration: line-through;
+    }
+} */

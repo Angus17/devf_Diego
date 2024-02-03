@@ -1,0 +1,22 @@
+.contenedor{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Columna1{
+    background-color: red;
+    float: left;
+    border: 2px solid black;
+    height: 800px;
+    width: 200px;
+    margin-right: 2px;
+}
+
+.Columna2{
+    background-color: blue;
+    float: left;
+    border: 2px solid black;
+    height: 800px;
+    width: 200px;
+    margin-left: 2px;
+}

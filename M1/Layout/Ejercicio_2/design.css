@@ -1,0 +1,25 @@
+.contenedor{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Columna1{
+    background-color: blueviolet;
+    border: 2px solid black;
+    float: left;
+    height: 400px;
+    width: 200px;
+    position: relative;
+}
+
+.Columna2{
+    background-color: chartreuse;
+    border: 2px solid red;
+    float: left;
+    height: 250px;
+    width: 100px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+
+}
