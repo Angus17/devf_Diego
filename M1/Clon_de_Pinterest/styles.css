@@ -90,12 +90,12 @@ header #navbar-pinterest-2{
 /*- - - - - - - - - - - Esta parte pertenece al contenido - - - - - - - - - - - - - - - - -*/
 #content{
     display: grid;
-    margin: 1%;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 2%;
+    grid-template-columns: 25% 25% 22% 22%;
+    grid-template-rows: 15% 12% 12% 12%;
 }
 
 #content .card-image img{
-    display: flex;
     margin: 1%;
     border-radius: 20px;
 }
