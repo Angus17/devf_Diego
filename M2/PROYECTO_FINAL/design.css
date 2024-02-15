@@ -1,0 +1,48 @@
+*
+{
+    margin: 1%;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+}
+
+#title
+{
+    background-color: rgb(135, 214, 119);
+    padding: 2%;
+    margin-bottom: 5%;
+    align-items: center;
+    text-align: center;
+    border-radius: 70px;
+    font-style: italic;
+}   
+
+.accordion .accordion-1{
+    border: 2px solid red;
+}
+
+.accordion .accordion-1 .collapsed{
+    border: 2px solid aquamarine;
+}
+
+.accordion .accordion-1 #inicio{
+    position: relative;
+    left: 40%;
+    padding: 1%;
+    width: 15%;
+    text-decoration: solid;
+    font-size: larger;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.accordion .accordion-1 #inicio:hover{
+    background-color: white;
+    border: 5px solid black;
+    color: black;
+    
+}
