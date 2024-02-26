@@ -1,0 +1,33 @@
+*{
+    font-family: "Cascadia Code PL";
+    font-size: larger;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+#opcion{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 40%;
+}
+
+#opcion button{
+    background-color: crimson;
+    padding: 5%;
+    color: azure;
+    border: 5px solid black;
+    border-radius: 40px;
+}
+
+#opcion button:hover{
+    background-color: azure;
+    color: crimson;
+}

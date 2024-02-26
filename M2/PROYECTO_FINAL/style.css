@@ -1,0 +1,88 @@
+*{
+    font-family: "Cascadia Code PL";
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#op{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    width: auto;
+    top: 50px;
+}
+
+.cajero{
+    display: flex;
+    border: 5px solid black;
+    width: 50%;
+    height: 80vh;
+    margin: 5%;
+    position: relative;
+    left: 20%;
+    border-radius: 30px;
+    background-color: tomato;
+
+}
+
+.cajero .display{
+    display: flex;
+    border-radius: 30px;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    position: relative;
+    width: 70%;
+    height: 7%;
+    top: 10%;
+    left: 25%;
+    color: gray;
+    background-color: blanchedalmond;
+}
+
+.teclado .table_teclado #delete img{
+    background-color: tomato;
+    width: 70%;
+}
+
+.teclado .table_teclado #delete{
+    background-color: tomato;
+    border: transparent;
+    padding-bottom: 0;
+    position: relative;
+    right: 15%;
+}
+
+
+.teclado .teclas{
+    position: relative;
+    right: 45%;
+    top: 30%;
+    border-collapse: separate;
+    border-spacing: 40px;
+}
+
+tr td > button{
+    background-color: black;
+    border-radius: 20px;
+    color: azure;
+    font-size: xx-large;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr td > button:hover{
+    background-color: azure;
+    color: black;
+    border: 3px solid black;
+}

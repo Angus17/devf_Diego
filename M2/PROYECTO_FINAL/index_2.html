@@ -12,10 +12,68 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
-        <title>Depositos-Retiros</title>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        
+        <h1 id="op">
+            .
+        </h1>
+        <div class="cajero">
+            <div class="display">
+                <h2 id="montos">Ingresa tu monto</h2>
+            </div>
+            <div class="teclado">
+
+                    <table class="table_teclado teclas">
+                        <tr>
+                            <td>
+                                <button id="1" onclick="seleccionar_monto(1)">1</button>
+                            </td>
+                            <td>
+                                <button id="2" onclick="seleccionar_monto(2)">2</button>
+                            </td>
+                            <td>
+                                <button id="3" onclick="seleccionar_monto(3)">3</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="4" onclick="seleccionar_monto(4)">4</button>
+                            </td>
+                            <td>
+                                <button id="5" onclick="seleccionar_monto(5)">5</button>
+                            </td>
+                            <td>
+                                <button id="6" onclick="seleccionar_monto(6)">6</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="7" onclick="seleccionar_monto(7)">7</button>
+                            </td>
+                            <td>
+                                <button id="8" onclick="seleccionar_monto(8)">8</button>
+                            </td>
+                            <td>
+                                <button id="9" onclick="seleccionar_monto(9)">9</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="." onclick="seleccionar_monto('.')">.</button>
+                            </td>
+                            <td>
+                                <button id="0" onclick="seleccionar_monto(0)">0</button>
+                            </td>
+                            <td>
+                                <button id="delete">
+                                    <img src="./images/borrar.png" >
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+        <script src="./cajero.js"></script>
     </body>
 </html>
