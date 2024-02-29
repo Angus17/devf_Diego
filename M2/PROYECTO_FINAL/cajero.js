@@ -42,30 +42,31 @@ function ingresar_nip(opcion)
     
     console.log(opcion)
     
-    while (!input_valido) 
+    do 
     {
         nip = Number(prompt("Favor de ingresar tu NIP de 4 digitos: "))
         
-        if (/^\d{4}$/.test(nip) ) 
+        if (/^\d{4}$/.test(nip) && nip !== 0) 
         
-        input_valido = true
+            input_valido = true
         
-        else if(nip === 0)
-        {
-            alert("Has cancelado la transaccion!")
-            window.location.reload()
-                break
-            }
-            else
-            
+        else if(nip !== 0)
+            {
                 alert("La entrada necesita ser un numero de 4 digitos")
                 
-    }
-    
+            }
+    } while (!input_valido || nip !== 0);
+
     if (input_valido) 
     
-    buscar_nip(nip, opcion)
-            
+        buscar_nip(nip, opcion)
+        
+    else
+    {
+        alert("Has cancelado la transaccion!")
+        window.location.reload()
+        
+    }
 }
 
 function buscar_nip(nip_cliente, opcion_elegida)
