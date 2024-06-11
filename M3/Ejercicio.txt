@@ -1,5 +1,0 @@
-InicioAlgoritmo
-    Definir nombre[]
-
-
-FinAlgoritmo
