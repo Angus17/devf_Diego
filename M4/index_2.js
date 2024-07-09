@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     `
         <div>
             <h1>Nuevo mundo</h1>
-            <a href="www.google.com">
+            <a href="https://www.google.com" target="_blank">
                 <button>Google</button>
             </a>
 
