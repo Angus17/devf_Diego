@@ -3,7 +3,8 @@ import inquirer from "inquirer";
 
 // Crear funcion asincrona
 
-async function main() {
+async function main() 
+{
 
     const { name } = await inquirer.prompt({
         type : "input",
